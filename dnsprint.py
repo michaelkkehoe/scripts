@@ -1,5 +1,5 @@
 #!/usr/bin/env python26
-#Written by Simon Coggins
+#Written by Simon Coggins (2013)
 import os, sys
 import dns
 import dns.query
