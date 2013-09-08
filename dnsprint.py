@@ -1,4 +1,5 @@
 #!/usr/bin/env python26
+#Written by Simon Coggins
 import os, sys
 import dns
 import dns.query
@@ -8,7 +9,7 @@ from dns.rdataclass import *
 from dns.rdatatype import *
  
  
-xfer = dns.query.xfr("ns1.uq.edu.au", "eait.uq.edu.au")
+xfer = dns.query.xfr("ns1.uq.edu.au", "uq.edu.au")
 cqu = dns.zone.from_xfr(xfer)
  
 Map = {}
